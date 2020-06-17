@@ -1,0 +1,97 @@
+.achievement {
+  border-bottom: 1px solid $header-border;
+}
+.achievement__title {
+  text-align: center;
+  display: none;
+}
+.competence {
+  display: flex;
+  align-items: center;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.competence__item {
+  padding-left: 30px;
+}
+.competence__item:first-child {
+  padding-left: 0px;
+}
+
+.div-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+  height: 120px;
+  background-color: $text-button-portfolio;
+  border-radius: 4px;
+}
+
+.svg-sputnik {
+  width: 70px;
+  height: 70px;
+}
+
+.svg-clock {
+  width: 70px;
+  height: 70px;
+}
+
+.svg-comp {
+  width: 70px;
+  height: 70px;
+}
+
+.svg-astronaut {
+  width: 70px;
+  height: 70px;
+}
+
+.competence__item--icon-sputnik::before {
+  content: "";
+  background-image: url(../images/sputnik.svg);
+}
+
+.competence__item--icon-clock::before {
+  content: "";
+  background-image: url(../images/clock.svg);
+}
+
+.competence__item--icon-comp::before {
+  content: "";
+  background-image: url(../images/comp.svg);
+}
+
+.competence__item--icon-astronaut::before {
+  content: "";
+  background-image: url(../images/astronaut.svg);
+}
+
+.competence__image {
+  min-width: 270px;
+  background-color: $text-button-portfolio;
+  padding: 25px 100px;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+.competence__image:hover,
+.competence__image:focus {
+  background-color: $text-blue;
+}
+
+.competence__label {
+  color: $text-black;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  margin: 0px;
+  padding-bottom: 10px;
+  padding-top: 30px;
+}
+.competence__text {
+  font-size: 14px;
+  line-height: 1.71;
+  margin: 0px;
+}
