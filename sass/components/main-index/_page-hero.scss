@@ -42,10 +42,11 @@
   text-align: center;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
-}
-.page-hero__button:hover,
-.page-hero__button:focus {
-  background-color: $text-white;
-  color: $text-blue;
-  border: 1px solid $text-blue;
+
+  &:hover,
+  &:focus {
+    background-color: $text-white;
+    color: $text-blue;
+    border: 1px solid $text-blue;
+  }
 }

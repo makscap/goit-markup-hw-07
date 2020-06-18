@@ -21,9 +21,10 @@
 }
 .customer__item {
   margin-left: 30px;
-}
-.customer__item:first-child {
-  margin-left: 0px;
+
+  &:first-child {
+    margin-left: 0px;
+  }
 }
 
 .customer__link {
@@ -37,11 +38,11 @@
   color: $border;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
-}
 
-.customer__link:hover {
-  color: $text-blue;
-  border: 1px solid $text-blue;
+  &:hover {
+    color: $text-blue;
+    border: 1px solid $text-blue;
+  }
 }
 
 .icon-logo1 {

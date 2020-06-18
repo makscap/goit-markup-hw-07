@@ -26,9 +26,10 @@
   margin-left: 34px;
   box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 1px 3px rgba(0, 0, 0, 0.12);
-}
-.person__item:first-child {
-  margin-left: 0px;
+
+  &:first-child {
+    margin-left: 0px;
+  }
 }
 
 .person__image {
@@ -68,11 +69,12 @@
   color: $border;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
-}
-.social__link:hover,
-.social__link:focus {
-  color: $text-white;
-  background-color: $text-blue;
+
+  &:hover,
+  &:focus {
+    color: $text-white;
+    background-color: $text-blue;
+  }
 }
 
 .svg-insta {
@@ -107,8 +109,8 @@
 .social__icon {
   min-width: 20px;
   padding: 12px;
-}
 
-.social__icon:hover {
-  background-color: $text-blue;
+  &:hover {
+    background-color: $text-blue;
+  }
 }

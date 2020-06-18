@@ -22,9 +22,10 @@
   margin-left: 10px;
   /* border-radius: 50%;
   overflow: hidden; */
-}
-.join__item:first-child {
-  margin-left: 0px;
+
+  &:first-child {
+    margin-left: 0px;
+  }
 }
 
 .join__link {
@@ -38,20 +39,21 @@
   background-color: $foot-line;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
-}
 
-.join__link:hover {
-  color: $text-white;
-  background-color: $text-blue;
+  &:hover {
+    color: $text-white;
+    background-color: $text-blue;
+  }
 }
 
 .join__icon {
   min-width: 20px;
   padding: 12px;
   background-color: $foot-line;
-}
-.join__icon:hover {
-  background-color: $text-blue;
+
+  &:hover {
+    background-color: $text-blue;
+  }
 }
 
 .svg-insta {
