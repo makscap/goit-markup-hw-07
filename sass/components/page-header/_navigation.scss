@@ -23,8 +23,8 @@
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  @include transition();
+
   position: relative;
 
   &:hover,
@@ -49,8 +49,7 @@
     bottom: 0px;
     opacity: 0;
     transition-property: opacity;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+    @include transition();
   }
 
   &:hover::after {

@@ -37,8 +37,7 @@
   border-radius: 50%;
   color: $text-white;
   background-color: $foot-line;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  @include transition();
 
   &:hover {
     color: $text-white;

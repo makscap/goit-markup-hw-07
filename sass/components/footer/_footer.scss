@@ -44,8 +44,7 @@
   line-height: 1.71;
   text-decoration: none;
   margin: 0px;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  @include transition();
 
   &:hover,
   &:focus {
